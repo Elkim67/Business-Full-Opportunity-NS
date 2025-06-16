@@ -40,17 +40,6 @@ export function loadTeamProfiles() {
           dribbble: "https://dribbble.com",
         },
       },
-      {
-        image: "assets/Team/team-4.png",
-        name: "Jenny Wilson",
-        description:
-          "Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit.",
-        socialLinks: {
-          linkedIn: "https://linkedin.com",
-          twitter: "https://twitter.com",
-          dribbble: "https://dribbble.com",
-        },
-      },
     ];
 
     // Generate profile cards secara dinamis
