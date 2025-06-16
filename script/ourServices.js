@@ -8,40 +8,28 @@ export function loadOurServices() {
     // Card Data for "Our Services"
     const ourServicesCards = [
       {
-        image: "assets/Blog/33/service-img-1.png",
-        title: "One Bedroom Apartment",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-      },
-      {
         image: "assets/Blog/33/service-img-2.png",
-        title: "Window Cleaning",
+        title: "Nettoyage de fenêtres",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+          "NOffrez un semblant de neuf à vos interieures.",
       },
       {
         image: "assets/Blog/33/service-img-3.png",
-        title: "Residential Cleaning",
+        title: " Nettoyage Residentiel",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+          "D'un mini studio à une villa, nous somme là pour assurer la proprété de vos espaces.",
       },
       {
         image: "assets/Blog/33/service-img-4.png",
-        title: "Office Cleaning",
+        title: "Nettpyage de Bureaux",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-      },
-      {
-        image: "assets/Blog/33/service-img-5.png",
-        title: "Carpet Cleaning",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+          "Donnez à vos espaces de travail une nouvelle apparence plus sereine.",
       },
       {
         image: "assets/Blog/33/service-img-6.png",
-        title: "Deep Cleaning",
+        title: "Autres Services",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+          "Peut importe le type de besoin, notre équipe est là pour vous apporter un support adéquat.",
       },
     ];
 
