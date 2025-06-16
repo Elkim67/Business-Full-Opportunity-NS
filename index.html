@@ -1,0 +1,703 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>Business Full Opportunity NS</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="fixed top-0 z-20 w-full bg-white">
+      <!-- Part 1: Top Info Bar -->
+      <div
+        class="hidden border-b border-b-black px-16 py-3 text-base font-normal text-black xl:block"
+      >
+        <div
+          class="container mx-auto flex flex-row items-center justify-between"
+        >
+          <div class="flex space-x-6">
+            <p class="border-r border-gray-500 pr-4 font-semibold">
+              Contact : +243 894 580 600
+            </p>
+            <p class="border-r border-gray-500 pr-4">
+              Adress: 121 Bautour, Gombe, Kinshasa
+            </p>
+            <p class="border-r border-gray-500 pr-4">
+              Ouvert: 9:00-15.00 Lun-Ven
+            </p>
+
+            <p>Email: info@businessfull.com</p>
+          </div>
+          <div class="flex gap-3">
+            <a href="#">
+              <img src="assets/Icon/Facebook.svg" alt="Facebook" />
+            </a>
+
+            <a href="#">
+              <img src="assets/Icon/Instagram.svg" alt="Instagram" />
+            </a>
+            <a href="#">
+              <img src="assets/Icon/Twitter.svg" alt="Twitter" />
+            </a>
+
+            <a href="#">
+              <img src="assets/Icon/LinkedIn.svg" alt="LinkedIn" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Part 2: Navbar Section -->
+      <nav class="border-b border-black px-6 py-4 xl:px-16">
+        <div class="container mx-auto flex items-center justify-between">
+          <!-- Logo -->
+          <a href="#">
+            <img
+              src="assets/Logo/clean-home-logo.svg"
+              alt="clean-home-logo"
+              class="w-[189px]"
+            />
+          </a>
+
+          <!-- Hamburger Menu Button for Mobile -->
+          <button id="menu-btn" class="block md:hidden">
+            <svg
+              class="h6 w-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+
+          <div class="hidden md:flex md:gap-8">
+            <!-- Desktop Menu -->
+            <ul class="flex items-center space-x-8">
+              <li>
+                <a href="#" class="text-gray-700 hover:text-blue-500">Accueil</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-700 hover:text-blue-500">A Propos</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-700 hover:text-blue-500"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-700 hover:text-blue-500">Equipes</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-700 hover:text-blue-500"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+
+            <!-- Call-to-Action Button -->
+            <a
+              href="#"
+              class="rounded-md bg-black px-6 py-2 font-normal text-white"
+            >
+              Réservation
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden bg-white shadow-md">
+        <ul class="flex flex-col space-y-4 p-4">
+          <li>
+            <a href="#" class="text-gray-700 hover:text-blue-500">Accueil</a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-700 hover:text-blue-500">A Propos</a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-700 hover:text-blue-500">Services</a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-700 hover:text-blue-500">Equipes</a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-700 hover:text-blue-500">Contact</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="rounded-md bg-black px-6 py-2 font-normal text-white"
+              >Réservation</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="mt-28 bg-white px-6 xl:mt-28 xl:px-16">
+      <div
+        class="container mx-auto flex flex-col items-center md:flex-row md:gap-8 lg:flex-row lg:py-24 xl:gap-16 xl:pt-0"
+      >
+        <!-- Left Section -->
+        <div class="mb-8 w-full text-left md:mb-0">
+          <h1
+            class="mb-6 text-4xl font-bold text-gray-900 xl:mb-3 xl:text-[56px] xl:leading-normal"
+          >
+            Un espace propre, <br />
+            Une vie heureuse, <br />
+            Laissez-nous s'occuper de tout !
+          </h1>
+          <p class="mb-10 text-black xl:pr-24 xl:text-lg">
+            Nous proposons de solutions de nettoyage innovante et centré sur 
+            le bien-être de nos clients.
+          </p>
+          <div class="flex flex-row justify-start gap-3">
+            <a
+              href="#"
+              class="rounded-md bg-black px-6 py-3 font-medium text-white hover:shadow-lg"
+              >Réservation</a
+            >
+            <a
+              href="#"
+              class="rounded-md border border-black bg-transparent px-6 py-3"
+              >En Savoir plus</a
+            >
+          </div>
+        </div>
+
+        <!-- Right Section -->
+        <div>
+          <img
+            src="assets/Hero/hero-img.png"
+            alt="Hero Image"
+            class="h-auto w-full"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Request a Quote Section -->
+    <div class="w-full bg-white px-6 py-12">
+      <form action="#" class="container mx-auto space-y-6">
+        <div class="lg:flex lg:items-end lg:justify-center lg:gap-6">
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+            <div class="flex flex-col xl:w-[292px]">
+              <label for="full-name" class="text-sm font-medium text-black"
+                >Nom Complet</label
+              >
+              <input
+                type="text"
+                id="full-name"
+                name="full-name"
+                placeholder=""
+                class="mt-2 rounded-md border border-black p-3"
+              />
+            </div>
+            <div class="flex flex-col xl:w-[292px]">
+              <label for="phone-number">Téléphone</label>
+              <input
+                type="tel"
+                id="phone-number"
+                name="phone-number"
+                placeholder=""
+                class="mt-2 rounded-md border border-black p-3"
+              />
+            </div>
+
+            <div class="flex flex-col xl:w-[292px]">
+              <label for="comment">Commentaire</label>
+              <input
+                type="text"
+                id="comment"
+                name="comment"
+                placeholder=""
+                class="mt-2 hidden rounded-md border border-black p-3 md:block"
+              />
+              <textarea
+                id="comment"
+                name="comment"
+                rows="4"
+                placeholder=""
+                class="mt-2 rounded-md border border-black p-3 md:hidden"
+              ></textarea>
+            </div>
+          </div>
+
+          <div>
+            <button
+              type="submit"
+              class="mt-4 w-full rounded-md bg-black px-6 py-3 font-normal text-white lg:mt-0"
+            >
+              Reservation
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Our Services Section
+    <section class="bg-gray-100 px-6 py-12 xl:my-14 xl:px-16 xl:py-112">
+      <div class="container mx-auto md:flex md:flex-col md:items-center">
+        <h2 class="mb-8 text-center text-3xl font-semibold text-black">
+          Nos services
+        </h2>
+        <p class="max-w-[340px] text-center text-lg lg:max-w-full">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+
+        <div
+          id="our-services-card-container"
+          class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
+        >
+          <!-- Cards will be dynamically injected here -->
+        <!-- </div>
+
+      </div>
+    </section> --> 
+
+        <!-- Our Services Section -->
+    <section class="bg-gray-100 px-6 py-12 xl:my-14 xl:px-16 xl:py-112">
+      <div class="container mx-auto md:flex md:flex-col md:items-center">
+        <h2 class="mb-8 text-center text-3xl font-semibold text-black">
+          Nos services
+        </h2> 
+        <p class="max-w-[340px] text-center text-lg lg:max-w-full">
+          Découvrez nos prestations professionnelles pour un environnement propre et sain.
+        </p>
+
+        <div
+          id="our-services-card-container"
+          class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
+        >
+          <!-- Card 1 -->
+          <div class="bg-white shadow-lg rounded-xl p-6 text-center">
+            <h3 class="text-xl font-semibold mb-4 text-gray-800">Nettoyage résidentiel</h3>
+            <p class="text-gray-600">
+              Nous assurons un nettoyage complet de votre maison ou appartement : sols, vitres, salles de bain, cuisine et plus encore.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white shadow-lg rounded-xl p-6 text-center">
+            <h3 class="text-xl font-semibold mb-4 text-gray-800">Entretien commercial</h3>
+            <p class="text-gray-600">
+              Offrez à vos employés et clients des locaux toujours propres grâce à nos services d’entretien régulier pour bureaux, magasins, etc.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white shadow-lg rounded-xl p-6 text-center">
+            <h3 class="text-xl font-semibold mb-4 text-gray-800">Assainissement & désinfection</h3>
+            <p class="text-gray-600">
+              Nous utilisons des produits professionnels pour éliminer germes, moisissures et odeurs dans tous types d’espaces, y compris après sinistres.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- About Us Section -->
+    <section class="bg-white px-6 py-12 xl:px-16 xl:py-112">
+      <div
+        class="container mx-auto flex flex-col items-center gap-12 md:flex-row"
+      >
+        <!-- Left Section -->
+        <div class="text-left md:w-1/2">
+          <div class="space-y-4">
+            <span class="text-base font-semibold text-black">À propos de nous</span>
+            <h3
+              class="text-[2rem] font-bold leading-10 text-black xl:text-5xl xl:leading-[4rem]"
+            >
+            Confiez-nous tous vos besoins en nettoyage et assainissement.
+            </h3>
+            <p class="text-lg font-normal text-black">
+              Notre entreprise est spécialisée dans les services de nettoyage résidentiel,
+              commercial et industriel, ainsi que dans l’assainissement complet des espaces.
+              Nous mettons un point d’honneur à offrir un service fiable, rapide et respectueux
+              des normes d’hygiène les plus strictes.
+              Grâce à une équipe expérimentée et à des équipements de pointe, 
+              nous garantissons des résultats impeccables, adaptés à vos besoins spécifiques. 
+              Votre satisfaction est notre priorité.
+            </p>
+          </div>
+
+          <a
+            href="#"
+            class="mt-12 inline-block rounded-md border border-black bg-black px-6 py-2 font-medium text-white hover:shadow-lg"
+            >Faites une demande</a
+          >
+        </div>
+
+        <!-- Right Section -->
+
+        <div class="md:1/2">
+          <img
+            src="assets/About-Us/about-us-img.png"
+            alt="About Us"
+            class="h-auto w-full rounded-lg shadow-lg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section class="bg-white px-6 py-12 xl:px-16 xl:py-112">
+      <div class="container mx-auto">
+        <h2 class="mb-4 text-center text-3xl font-semibold lg:text-5xl">
+          Notre Equipe
+        </h2>
+        <p class="mb-20 text-center text-black lg:text-lg">
+          Meet the talented individuals behind our success.
+        </p>
+
+        <div
+          id="team-profile-container"
+          class="grid grid-cols-1 gap-8 sm:grid-cols-3 xl:grid-cols-2 xl:gap-16"
+        >
+          <!-- Profile -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="bg-gray-100 px-6 py-12 xl:px-16 xl:py-112">
+      <div
+        class="container mx-auto grid grid-cols-1 gap-16 md:grid-cols-2 lg:gap-16 xl:items-end"
+      >
+        <!-- Left Section: Contact Form -->
+        <div>
+          <h2 class="mb-4 text-base font-semibold text-black">Contactez-nous</h2>
+          <h3 class="mb-6 text-[2rem] font-bold text-black">Faites une demande</h3>
+          <p class="mb-8 text-lg text-black">
+            Veuillez remplir notre formulaire de prise en charge pour toutes vos requêtes.
+          </p>
+
+          <form class="flex flex-col gap-6">
+            <div class="flex flex-col gap-6 lg:flex-row">
+              <!-- Full Name -->
+              <div class="w-full lg:w-1/2">
+                <label
+                  for="full-name"
+                  class="block text-sm font-medium text-gray-700"
+                  >Nom Complet</label
+                >
+                <input
+                  type="text"
+                  id="full-name"
+                  name="full-name"
+                  required
+                  class="mt-1 w-full rounded-md border border-gray-300 p-3"
+                />
+              </div>
+              <!-- Phone Number -->
+              <div class="w-full lg:w-1/2">
+                <label
+                  for="phone-number"
+                  class="block text-sm font-medium text-gray-700"
+                  >Téléphone</label
+                >
+                <input
+                  type="tel"
+                  id="phone-number"
+                  name="phone-number"
+                  required
+                  class="mt-1 w-full rounded-md border border-gray-300 p-3"
+                />
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-6 lg:flex-row">
+              <!-- Select Service -->
+              <div class="w-full lg:w-1/2">
+                <label
+                  for="service"
+                  class="block text-sm font-medium text-gray-700"
+                  >Services</label
+                >
+                <select
+                  id="service"
+                  name="service"
+                  required
+                  class="mt-1 w-full rounded-md border border-gray-300 p-3"
+                >
+                  <option value="standard-cleaning">Nettoyage Standard</option>
+                  <option value="deep-cleaning">Nettoyage en profondeur</option>
+                  <option value="move-in-out">Nettoyage et aménagement</option>
+                </select>
+              </div>
+              <!-- Select Time -->
+              <div class="w-full lg:w-1/2">
+                <label for="time">Horaire</label>
+                <input
+                  type="date"
+                  id="time"
+                  name="time"
+                  required
+                  class="mt-1 w-full rounded-md border border-gray-300 p-3"
+                />
+              </div>
+            </div>
+
+            <!-- Message -->
+            <div class="w-full">
+              <label
+                for="message"
+                class="block text-sm font-medium text-gray-700"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Votre message..."
+                class="mt-1 w-full rounded-md border border-gray-300 p-3"
+              ></textarea>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="flex items-center">
+              <input
+                type="checkbox"
+                id="terms"
+                name="terms"
+                required
+                class="mr-2"
+              />
+              <label for="terms" class="text-sm text-gray-600"
+                >J'accepte les <a href="#" class="underline">termes & Conditions</a></label
+              >
+            </div>
+
+            <!-- Submit Button -->
+            <div>
+              <button
+                type="submit"
+                class="w-full rounded-md bg-black py-3 font-normal text-white lg:w-fit lg:px-6 lg:py-3"
+              >
+                Envoyer
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Right Section: Image -->
+        <div class="hidden md:block">
+          <img
+            src="assets/Contact/contact-img.png"
+            alt="Cleaning Service"
+            class="h-full w-full rounded-lg object-cover shadow-lg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="hidden bg-white px-6 py-12 lg:block xl:px-16 xl:py-112">
+      <div
+        class="container mx-auto flex flex-col items-center justify-between space-y-8"
+      >
+        <!-- Top Section: Title and Description -->
+        <div>
+          <h2 class="text-center font-bold lg:mb-6 lg:text-5xl">
+            Souscrivez à nos alertes quotidiennes
+          </h2>
+          <p class="text-lg lg:mb-6 lg:max-w-[669px] lg:text-center">
+            Resté informé de l'évolution de vos différentes requêtes grâce à un 
+            système d'emailling performant.
+          </p>
+        </div>
+
+        <!-- Bottom Section: Subscription Form -->
+        <div>
+          <form class="flex flex-col items-center gap-4 sm:flex-row">
+            <input
+              type="email"
+              name="email"
+              placeholder="Entrez votre email"
+              required
+              class="rounded-md border border-black p-3 placeholder:text-gray-500 focus:ring-2 lg:w-[334px]"
+            />
+            <button
+              type="submit"
+              class="rounded-md bg-black px-6 py-3 text-base font-normal text-white transition duration-300 hover:bg-gray-300"
+            >
+              Souscrire
+            </button>
+          </form>
+          <p class="mt-4 text-center text-xs font-normal text-black">
+            En cliquant, vous confirmez que vous acceptez nos termes et conditions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-white px-6 py-12 xl:py-20">
+      <div class="container mx-auto gap-12 border-b border-b-black pb-6">
+        <!-- Leftmost Section: Logo and Newsletter -->
+
+        <!-- Footer Desktop Menu Start -->
+        <div class="hidden xl:flex xl:justify-between">
+          <div class="space-y-6">
+            <div class="text-xl font-semibold">
+              <img
+                src="assets/Logo/clean-home-logo.svg"
+                alt="clean-home-logo"
+                class="w-[189px]"
+              />
+            </div>
+
+            <p>
+              Rejoignez-nous pour rester à jours sur les dernières annonces.
+            </p>
+            <form class="flex flex-row justify-between gap-4">
+              <input
+                type="email"
+                name="email"
+                placeholder="Entrez votre email"
+                required
+                class="w-[320px] rounded-md border border-black p-3 focus:outline-none focus:ring-2"
+              />
+              <button
+                type="submit"
+                class="rounded-md border border-black bg-white px-6 py-3 font-normal text-black transition duration-300 hover:bg-gray-100"
+              >
+                Souscrire
+              </button>
+            </form>
+          </div>
+
+          <!-- Menus: About Us  -->
+          <div>
+            <h3 class="mb-4 text-lg font-semibold">A Propos de Nous</h3>
+            <ul class="space-y-4">
+              <li><a href="#home">Accueil</a></li>
+              <li><a href="#about">A Propos</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#teams">Equipes</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Menus: Services -->
+          <div>
+            <h3 class="mb-4 text-lg font-semibold">Services</h3>
+            <ul class="space-y-4">
+              <li><a href="#window">Fenêtre</a></li>
+              <li><a href="#residential">Residentielle</a></li>
+              <li><a href="#commercial">Commercial</a></li>
+              <li><a href="#apartment">Appartement</a></li>
+              <li><a href="#residential2">Residentielle</a></li>
+            </ul>
+          </div>
+
+          <!-- Menus: Follow Us (Social Media) -->
+          <div>
+            <h3 class="mb-4 text-lg font-semibold">Suivez-nous</h3>
+            <ul class="space-y-4">
+              <li>
+                <a href="#" class="flex gap-4">
+                  <img src="assets/Icon/Facebook.svg" alt="Facebook" />
+                  <span>Facebook</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="flex gap-4">
+                  <img src="assets/Icon/Instagram.svg" alt="Instagram" />
+                  <span>Instagram</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="flex gap-4">
+                  <img src="assets/Icon/Twitter.svg" alt="Twitter" />
+                  <span>Twitter</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="flex gap-4">
+                  <img src="assets/Icon/LinkedIn.svg" alt="LinkedIn" />
+                  <span>LinkedIn</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Footer Desktop Menu End -->
+
+        <!-- Mobil Desktop Menu Start -->
+        <div
+          class="flex flex-col items-center gap-8 lg:flex-row lg:justify-between xl:hidden"
+        >
+          <img src="assets/Logo/clean-home-logo.svg" alt="clean-home-logo" />
+          <ul class="flex flex-row gap-[30px]">
+            <li><a href="#">A Propos</a></li>
+            <li><a href="#">Projet</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+
+          <ul class="flex gap-3">
+            <li>
+              <a href="#">
+                <img src="assets/Icon/Facebook.svg" alt="Facebook" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/Icon/Instagram.svg" alt="Instagram" />
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="assets/Icon/Twitter.svg" alt="Twitter" />
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="assets/Icon/LinkedIn.svg" alt="LinkedIn" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Mobil Desktop Menu End -->
+      </div>
+
+      <div
+        class="mt-[2rem] flex flex-col gap-6 lg:flex-row lg:justify-between xl:px-14"
+      >
+        <p class="text-center text-sm text-black">
+          2025 Business Full Opportunity NS. Tout droits reservés.
+        </p>
+        <ul class="flex justify-around text-sm lg:gap-6">
+          <li><a href="#" class="underline">Politiques de Confidentialités</a></li>
+          <li><a href="#" class="underline">Termes de Service</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script type="module" src="script/main.js"></script>
+  </body>
+</html>
