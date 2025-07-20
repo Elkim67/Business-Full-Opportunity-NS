@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nos Services - NS Business Full Opportunity</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="index.html" class="logo-link">
+                <img src="images/ns-logo.svg" alt="Logo NS Business Full Opportunity" class="logo">
+            </a>
+            <nav class="navbar">
+                <button class="burger" id="burger-menu" aria-label="Ouvrir le menu de navigation">☰</button>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html#accueil">Accueil</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#qui-sommes-nous">Qui Sommes-Nous</a></li>
+                    <li><a href="index.html#equipe">Équipe</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+        <section class="hero-subpage">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h1 class="reveal fade-bottom">Nos Solutions Complètes</h1>
+                <p class="reveal fade-bottom" style="transition-delay: 0.2s;">
+                    Découvrez l'étendue de nos services professionnels pour un environnement sain et valorisé.
+                </p>
+            </div>
+        </section>
+
+        <section class="section section-intro-services">
+            <div class="container">
+                <h2 class="section-title reveal fade-bottom">Une expertise pour chaque besoin</h2>
+                <p class="section-intro reveal fade-bottom">
+                    Chez NS BUSINESS FULL OPPORTUNITY, nous mettons notre savoir-faire au service de votre bien-être. Explorez nos différentes catégories de services, conçues pour apporter des solutions efficaces et durables à tous vos défis de propreté, d'assainissement, de construction et d'aménagement.
+                </p>
+            </div>
+        </section>
+
+        <section class="section section-detailed-services">
+            <div class="container">
+
+                <div class="service-category" id="nettoyage">
+                    <h3 class="category-title reveal fade-bottom">Nettoyage</h3>
+                    <div class="services-grid">
+                        <div class="service-card reveal fade-bottom">
+                            <img src="images/img-6.jpg" alt="Nettoyage Général">
+                            <h4>Nettoyage Général et Solutions Innovantes</h4>
+                            <p>Nous proposons des solutions modernes et efficaces, centrées sur le confort et la santé de nos clients, utilisant des techniques écologiques pour un environnement sain et éclatant de propreté.</p>
+                        </div>
+                        <div class="service-card reveal fade-bottom" style="transition-delay: 0.1s;">
+                            <img src="images/img-10.jpg" alt="Nettoyage des Fenêtres">
+                            <h4>Nettoyage des Fenêtres</h4>
+                            <p>Offrez un aspect éclatant à vos vitres grâce à notre savoir-faire professionnel. Nous utilisons des produits adaptés pour une clarté impeccable, sans traces ni résidus.</p>
+                        </div>
+                        <div class="service-card reveal fade-bottom" style="transition-delay: 0.2s;">
+                            <img src="images/img-2.jpg" alt="Nettoyage en Profondeur">
+                            <h4>Nettoyage en Profondeur</h4>
+                            <p>Nous utilisons des techniques écologiques et efficaces pour un nettoyage durable et une désinfection complète sur base régulière, atteignant les moindres recoins pour une hygiène parfaite.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-category" id="assainissement">
+                    <h3 class="category-title reveal fade-bottom">Assainissement</h3>
+                    <div class="services-grid">
+                        <div class="service-card reveal fade-bottom">
+                            <img src="images/img-5.jpg" alt="Nettoyage Résidentiel">
+                            <h4>Nettoyage et Assainissement Résidentiel</h4>
+                            <p>Nous veillons à la propreté de votre cadre de vie pour un environnement sain et serein. Nos équipes garantissent un domicile impeccable et agréable à vivre.</p>
+                        </div>
+                        <div class="service-card reveal fade-bottom" style="transition-delay: 0.1s;">
+                            <img src="images/img-7.jpg" alt="Entretien des Bureaux">
+                            <h4>Entretien et Assainissement des Bureaux</h4>
+                            <p>Optimisez la productivité de vos équipes dans un espace de travail propre et harmonieux. Nous proposons des plans d'entretien réguliers adaptés à vos besoins professionnels.</p>
+                        </div>
+                        <div class="service-card reveal fade-bottom" style="transition-delay: 0.2s;">
+                            <img src="images/img-1.jpg" alt="Entretien Industriel">
+                            <h4>Entretien et Assainissement Industriel</h4>
+                            <p>Nous assurons l'assainissement et le nettoyage profond des bâtiments industriels avec des outils et techniques de pointe, garantissant sécurité et conformité aux normes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-category" id="construction">
+                    <h3 class="category-title reveal fade-bottom">Construction</h3>
+                    <div class="services-grid">
+                        <div class="service-card reveal fade-bottom">
+                            <img src="images/img-25.jpg" alt="Construction et Rénovation">
+                            <h4>Construction et Rénovation de Bâtiments</h4>
+                            <p>Nous concrétisons vos projets immobiliers avec expertise et matériaux de qualité. De la conception à la réalisation, nous vous accompagnons à chaque étape.</p>
+                        </div>
+                        <div class="service-card reveal fade-bottom" style="transition-delay: 0.1s;">
+                            <img src="images/img-42.jpg" alt="Peinture Industrielle">
+                            <h4>Peinture Industrielle</h4>
+                            <p>Application de revêtements protecteurs et esthétiques pour vos infrastructures industrielles, assurant durabilité et résistance aux environnements les plus exigeants.</p>
+                        </div>
+                        <div class="service-card reveal fade-bottom" style="transition-delay: 0.2s;">
+                            <img src="images/img-41.jpg" alt="Électricité Bâtiment">
+                            <h4>Installation Électrique et Froid</h4>
+                            <p>Services complets d'installation, de maintenance et de dépannage de systèmes électriques pour bâtiments, ainsi que solutions de froid commercial et industriel.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-category" id="jardinage">
+                    <h3 class="category-title reveal fade-bottom">Aménagement & Divers</h3>
+                    <div class="services-grid">
+                        <div class="service-card reveal fade-bottom">
+                            <img src="images/img-23.jpg" alt="Aménagement de Jardins">
+                            <h4>Aménagement et Entretien de Jardins</h4>
+                            <p>Nous transformons votre espace extérieur en un véritable havre de paix avec nos créations paysagères et assurons un entretien régulier pour sa beauté durable.</p>
+                        </div>
+                        <div class="service-card reveal fade-bottom" style="transition-delay: 0.1s;">
+                            <img src="images/img-40.jpg" alt="Autres Services Spécifiques">
+                            <h4>Solutions Spécifiques et Complémentaires</h4>
+                            <p>Au-delà de nos services principaux, nous proposons des solutions sur mesure pour des besoins spécifiques. Contactez-nous pour discuter de votre projet unique.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo-link">
+                    <img src="images/ns-logo.svg" alt="Logo NS Business" class="logo footer-logo" />
+                </a>
+                <p>Votre partenaire de confiance pour des solutions de nettoyage professionnelles.</p>
+                <p><strong>Adresses :</strong></p>
+                <address>
+                    Immeuble Botour, 6ème Niveau Bloc B2, Gombe, Kinshasa<br>
+                    43 Chaussée de Kasenga, Q/ Bel air, C/ Kampemba, Lubumbashi, Haut-Katanga<br>
+                    2311, Avenue Chemin Public, Q/ Biashara, C/ Dilala, Kolwezi, Lualaba
+                </address>
+            </div>
+            <div class="footer-col">
+                <h4>Notre Solution</h4>
+                <ul>
+                    <li><a href="#nettoyage">Nettoyage</a></li>
+                    <li><a href="#assainissement">Assainissement</a></li>
+                    <li><a href="#construction">Construction</a></li>
+                    <li><a href="#jardinage">Jardinage</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Vos Besoins</h4>
+                <ul>
+                    <li><a href="#assainissement">Bureaux</a></li>
+                    <li><a href="#assainissement">Résidences</a></li>
+                    <li><a href="#assainissement">Industriel</a></li>
+                    <li><a href="#jardinage">Autres</a></li>
+                </ul>
+            </div>
+            <div class="footer-col newsletter">
+                <h4>Restons Connectés</h4>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank" aria-label="Notre page Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                <p style="margin-top: 1rem;">Abonnez-vous à notre newsletter pour les dernières nouvelles et offres spéciales.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Votre adresse email" required aria-label="Votre adresse email pour la newsletter"/>
+                    <button type="submit">S'abonner</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 NS BUSINESS FULL OPPORTUNITY. Tous Droits Réservés.
+        </div>
+    </footer>
+
+</body>
+</html>
