@@ -430,8 +430,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .team-img-clean {
-    width: 140px;
-    height: 140px;
+    width: 220px;
+    height: 220px;
     object-fit: cover;
     border-radius: 5px; /* Coins arrondis pour les carrés */
     margin: 0 auto 20px auto;
